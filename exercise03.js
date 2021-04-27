@@ -44,3 +44,11 @@ console.log("First name of person: " + person.firstName);
 for (i in person.phoneNumbers) {
     console.log("Phone number: " + person.phoneNumbers[i].number);
 }
+
+
+// Create your JavaScript objects
+function roster(firstName, id, username) {
+   this.firstName = firstName;
+   this.id = id;
+   this.username = username;
+} 
