@@ -21,4 +21,4 @@ print("Yesterday's date and time: ", datetime_object2)
 # modify the following statement to print the current date and time in
 # dd-mm-YY H:M:S format
 datetime_object3 = datetime_object
-print("Current date and time: ", datetime_object3)
+print("Current date and time: ", datetime_object3.strftime("%d/%n/%y %h:%m:%s")) 
