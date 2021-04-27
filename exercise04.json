@@ -1,4 +1,4 @@
-{
+const person = {
    "firstName":"Snow",
    "lastName":"White",
    "isFiction":true,
@@ -22,4 +22,6 @@
       }
    ],
    "spouse":null
-} 
+};
+
+const jsonStr = JSON.stringfy(person); 
