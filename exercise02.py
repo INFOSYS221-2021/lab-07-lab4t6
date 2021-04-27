@@ -7,8 +7,8 @@ print("Current date and time: ", datetime_object)
 
 # modify the following print statements using datetime_object appropriately
 print("Current year: ", datetime_object.year)
-print("Current month: ", datetime_object.strftime("%B")
-print("Current day: ", datetime_object).strftime("%A") 
+print("Current month: ", datetime_object.strftime("%B"))
+print("Current day: ", datetime_object.strftime("%A")) 
 print("Current time: ", datetime_object)
 
 # modify the following statement that creates another datetime_object.
