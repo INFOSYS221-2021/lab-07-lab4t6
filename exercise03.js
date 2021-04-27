@@ -45,6 +45,8 @@ for (i in person.phoneNumbers) {
     console.log("Phone number: " + person.phoneNumbers[i].number);
 }
 
+const jsonStr = JSON.stringfy(person); 
+console.log(jsonStr); 
 
 // Create your JavaScript objects
 function roster(firstName, id, username) {
@@ -52,3 +54,5 @@ function roster(firstName, id, username) {
    this.id = id;
    this.username = username;
 } 
+
+// let roster = new roster(firstname, id, username) 
