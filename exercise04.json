@@ -1,27 +1,36 @@
-const person = {
+{
    "firstName":"Snow",
    "lastName":"White",
-   "isFiction":true,
-   "age":18,
-   "address":{
-      "streetAddress":"7 Fairytale Lane",
-      "city":"Fairytale Forest"
+   "id":true,
+   "majors":{
+      "firstmajor":"Business",
+      "secondmajor":"Economics"
    },
-   "phoneNumbers":[
+   "degrees":{
+      "firstdegree":"Commerce",
+      "seconddegree":"Statistics"
+   },
+   "Courses":[
       {
-         "type":"home",
-         "number":"01 123-4567"
+         "title":"home",
+         "category":"Infosys",
+         "categoryNum":"221",
+         "description":"Something",
+         "offered":"First Sem"
       },
       {
-         "type":"office",
-         "number":"01 555-4567"
+         "title":"office",
+         "category":"Infosys",
+         "categoryNum":"221",
+         "description":"Something",
+         "offered":"First Sem"
       },
       {
          "type":"mobile",
-         "number":"028 456-7890"
+         "category":"Infosys",
+         "categoryNum":"221",
+         "description":"Something",
+         "offered":"First Sem"
       }
-   ],
-   "spouse":null
-};
-
-const jsonStr = JSON.stringfy(person); 
+   ]
+}
